@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C04551C1AC58E25009D1B1B /* Persia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C04551B1AC58E25009D1B1B /* Persia.png */; };
+		8C04551E1AC58EEC009D1B1B /* Grownevolu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C04551D1AC58EEC009D1B1B /* Grownevolu.png */; };
+		8C33D1E61AC5BEFD00028D62 /* gastly.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1E51AC5BEFD00028D62 /* gastly.png */; };
+		8C33D1E81AC5BF7800028D62 /* hunter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1E71AC5BF7800028D62 /* hunter.png */; };
+		8C33D1EA1AC5C11500028D62 /* charmander.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1E91AC5C11500028D62 /* charmander.png */; };
+		8C33D1EC1AC5C17100028D62 /* charmelon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1EB1AC5C17100028D62 /* charmelon.png */; };
+		8C33D1EE1AC5C2F100028D62 /* Shellder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1ED1AC5C2F100028D62 /* Shellder.png */; };
+		8C33D1F01AC5C34600028D62 /* bulbasaur.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1EF1AC5C34600028D62 /* bulbasaur.png */; };
+		8C33D1F21AC5C37600028D62 /* Ivysaur.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1F11AC5C37600028D62 /* Ivysaur.png */; };
+		8C33D1F41AC5C38800028D62 /* Nidoran.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1F31AC5C38800028D62 /* Nidoran.png */; };
+		8C33D1F61AC5C38D00028D62 /* Nidorina.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1F51AC5C38D00028D62 /* Nidorina.png */; };
+		8C33D1F81AC5C3B500028D62 /* Raichu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1F71AC5C3B500028D62 /* Raichu.png */; };
+		8C33D1FA1AC5C3E600028D62 /* pichu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1F91AC5C3E600028D62 /* pichu.png */; };
+		8C33D1FC1AC5C44100028D62 /* Hitmonchan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1FB1AC5C44100028D62 /* Hitmonchan.png */; };
+		8C33D1FE1AC5C47400028D62 /* Arcanine.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C33D1FD1AC5C47400028D62 /* Arcanine.png */; };
+		8C87B8261AC482A8007F6B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B8251AC482A8007F6B31 /* main.m */; };
+		8C87B8401AC482A8007F6B31 /* ProjetopokemonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B83F1AC482A8007F6B31 /* ProjetopokemonTests.m */; };
+		8C87B8501AC48339007F6B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B84A1AC48339007F6B31 /* ViewController.m */; };
+		8C87B8511AC48339007F6B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87B84C1AC48339007F6B31 /* AppDelegate.m */; };
+		8C87B8521AC48339007F6B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B84D1AC48339007F6B31 /* Main.storyboard */; };
+		8C87B8531AC48339007F6B31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B84E1AC48339007F6B31 /* Images.xcassets */; };
+		8C87B8541AC48339007F6B31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B84F1AC48339007F6B31 /* LaunchScreen.xib */; };
+		8C87B85F1AC48415007F6B31 /* Cloyster.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B8551AC48415007F6B31 /* Cloyster.png */; };
+		8C87B8601AC48415007F6B31 /* Gengar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B8561AC48415007F6B31 /* Gengar.png */; };
+		8C87B8611AC48415007F6B31 /* Grown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B8571AC48415007F6B31 /* Grown.png */; };
+		8C87B8621AC48415007F6B31 /* Hitmonlee.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B8581AC48415007F6B31 /* Hitmonlee.png */; };
+		8C87B8631AC48415007F6B31 /* Lapras.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B8591AC48415007F6B31 /* Lapras.png */; };
+		8C87B8641AC48415007F6B31 /* Miau.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B85A1AC48415007F6B31 /* Miau.png */; };
+		8C87B8651AC48415007F6B31 /* Miltank.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B85B1AC48415007F6B31 /* Miltank.png */; };
+		8C87B8661AC48415007F6B31 /* Nidoqueen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B85C1AC48415007F6B31 /* Nidoqueen.png */; };
+		8C87B8671AC48415007F6B31 /* Pikachu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B85D1AC48415007F6B31 /* Pikachu.png */; };
+		8C87B8681AC48415007F6B31 /* Venosaur.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B85E1AC48415007F6B31 /* Venosaur.png */; };
+		8C87B86A1AC48DE7007F6B31 /* BackPedro.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B8691AC48DE7007F6B31 /* BackPedro.png */; };
+		8C87B86E1AC4A536007F6B31 /* charizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B86D1AC4A536007F6B31 /* charizard.png */; };
+		8C87B8781AC4B48C007F6B31 /* pokex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B8771AC4B48C007F6B31 /* pokex.jpg */; };
+		8C87B87A1AC4B94C007F6B31 /* Pedro.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C87B8791AC4B94C007F6B31 /* Pedro.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C87B83A1AC482A8007F6B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C87B8181AC482A8007F6B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C87B81F1AC482A8007F6B31;
+			remoteInfo = Projetopokemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C04551B1AC58E25009D1B1B /* Persia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Persia.png; path = "Imagens do App/Persia.png"; sourceTree = "<group>"; };
+		8C04551D1AC58EEC009D1B1B /* Grownevolu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Grownevolu.png; path = "Imagens do App/Grownevolu.png"; sourceTree = "<group>"; };
+		8C33D1E51AC5BEFD00028D62 /* gastly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gastly.png; path = "Imagens do App/gastly.png"; sourceTree = "<group>"; };
+		8C33D1E71AC5BF7800028D62 /* hunter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hunter.png; path = "Imagens do App/hunter.png"; sourceTree = "<group>"; };
+		8C33D1E91AC5C11500028D62 /* charmander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charmander.png; path = "Imagens do App/charmander.png"; sourceTree = "<group>"; };
+		8C33D1EB1AC5C17100028D62 /* charmelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charmelon.png; path = "Imagens do App/charmelon.png"; sourceTree = "<group>"; };
+		8C33D1ED1AC5C2F100028D62 /* Shellder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shellder.png; sourceTree = "<group>"; };
+		8C33D1EF1AC5C34600028D62 /* bulbasaur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulbasaur.png; sourceTree = "<group>"; };
+		8C33D1F11AC5C37600028D62 /* Ivysaur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ivysaur.png; sourceTree = "<group>"; };
+		8C33D1F31AC5C38800028D62 /* Nidoran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nidoran.png; sourceTree = "<group>"; };
+		8C33D1F51AC5C38D00028D62 /* Nidorina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nidorina.png; sourceTree = "<group>"; };
+		8C33D1F71AC5C3B500028D62 /* Raichu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Raichu.png; sourceTree = "<group>"; };
+		8C33D1F91AC5C3E600028D62 /* pichu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pichu.png; sourceTree = "<group>"; };
+		8C33D1FB1AC5C44100028D62 /* Hitmonchan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hitmonchan.png; sourceTree = "<group>"; };
+		8C33D1FD1AC5C47400028D62 /* Arcanine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arcanine.png; sourceTree = "<group>"; };
+		8C87B8201AC482A8007F6B31 /* Projetopokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projetopokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C87B8241AC482A8007F6B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C87B8251AC482A8007F6B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C87B8391AC482A8007F6B31 /* ProjetopokemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetopokemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C87B83E1AC482A8007F6B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C87B83F1AC482A8007F6B31 /* ProjetopokemonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjetopokemonTests.m; sourceTree = "<group>"; };
+		8C87B8491AC48339007F6B31 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		8C87B84A1AC48339007F6B31 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		8C87B84B1AC48339007F6B31 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		8C87B84C1AC48339007F6B31 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		8C87B84D1AC48339007F6B31 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		8C87B84E1AC48339007F6B31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		8C87B84F1AC48339007F6B31 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../LaunchScreen.xib; sourceTree = "<group>"; };
+		8C87B8551AC48415007F6B31 /* Cloyster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cloyster.png; path = "Imagens do App/Cloyster.png"; sourceTree = "<group>"; };
+		8C87B8561AC48415007F6B31 /* Gengar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gengar.png; path = "Imagens do App/Gengar.png"; sourceTree = "<group>"; };
+		8C87B8571AC48415007F6B31 /* Grown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Grown.png; path = "Imagens do App/Grown.png"; sourceTree = "<group>"; };
+		8C87B8581AC48415007F6B31 /* Hitmonlee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hitmonlee.png; path = "Imagens do App/Hitmonlee.png"; sourceTree = "<group>"; };
+		8C87B8591AC48415007F6B31 /* Lapras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lapras.png; path = "Imagens do App/Lapras.png"; sourceTree = "<group>"; };
+		8C87B85A1AC48415007F6B31 /* Miau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Miau.png; path = "Imagens do App/Miau.png"; sourceTree = "<group>"; };
+		8C87B85B1AC48415007F6B31 /* Miltank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Miltank.png; path = "Imagens do App/Miltank.png"; sourceTree = "<group>"; };
+		8C87B85C1AC48415007F6B31 /* Nidoqueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nidoqueen.png; path = "Imagens do App/Nidoqueen.png"; sourceTree = "<group>"; };
+		8C87B85D1AC48415007F6B31 /* Pikachu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pikachu.png; path = "Imagens do App/Pikachu.png"; sourceTree = "<group>"; };
+		8C87B85E1AC48415007F6B31 /* Venosaur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Venosaur.png; path = "Imagens do App/Venosaur.png"; sourceTree = "<group>"; };
+		8C87B8691AC48DE7007F6B31 /* BackPedro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackPedro.png; path = "Imagens do App/BackPedro.png"; sourceTree = "<group>"; };
+		8C87B86D1AC4A536007F6B31 /* charizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charizard.png; path = "Imagens do App/charizard.png"; sourceTree = "<group>"; };
+		8C87B8771AC4B48C007F6B31 /* pokex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pokex.jpg; path = "Imagens do App/pokex.jpg"; sourceTree = "<group>"; };
+		8C87B8791AC4B94C007F6B31 /* Pedro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pedro.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C87B81D1AC482A8007F6B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C87B8361AC482A8007F6B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C87B8171AC482A8007F6B31 = {
+			isa = PBXGroup;
+			children = (
+				8C87B8221AC482A8007F6B31 /* Projetopokemon */,
+				8C87B83C1AC482A8007F6B31 /* ProjetopokemonTests */,
+				8C87B8211AC482A8007F6B31 /* Products */,
+				8C87B8551AC48415007F6B31 /* Cloyster.png */,
+				8C87B8561AC48415007F6B31 /* Gengar.png */,
+				8C87B8571AC48415007F6B31 /* Grown.png */,
+				8C87B8581AC48415007F6B31 /* Hitmonlee.png */,
+				8C87B8591AC48415007F6B31 /* Lapras.png */,
+				8C87B85A1AC48415007F6B31 /* Miau.png */,
+				8C87B85B1AC48415007F6B31 /* Miltank.png */,
+				8C87B85C1AC48415007F6B31 /* Nidoqueen.png */,
+				8C87B85D1AC48415007F6B31 /* Pikachu.png */,
+				8C87B85E1AC48415007F6B31 /* Venosaur.png */,
+				8C04551D1AC58EEC009D1B1B /* Grownevolu.png */,
+				8C87B8691AC48DE7007F6B31 /* BackPedro.png */,
+				8C87B86D1AC4A536007F6B31 /* charizard.png */,
+				8C04551B1AC58E25009D1B1B /* Persia.png */,
+				8C87B8771AC4B48C007F6B31 /* pokex.jpg */,
+				8C87B8791AC4B94C007F6B31 /* Pedro.png */,
+				8C33D1E51AC5BEFD00028D62 /* gastly.png */,
+				8C33D1E71AC5BF7800028D62 /* hunter.png */,
+				8C33D1E91AC5C11500028D62 /* charmander.png */,
+				8C33D1EB1AC5C17100028D62 /* charmelon.png */,
+				8C33D1ED1AC5C2F100028D62 /* Shellder.png */,
+				8C33D1EF1AC5C34600028D62 /* bulbasaur.png */,
+				8C33D1F11AC5C37600028D62 /* Ivysaur.png */,
+				8C33D1F31AC5C38800028D62 /* Nidoran.png */,
+				8C33D1F51AC5C38D00028D62 /* Nidorina.png */,
+				8C33D1F71AC5C3B500028D62 /* Raichu.png */,
+				8C33D1F91AC5C3E600028D62 /* pichu.png */,
+				8C33D1FB1AC5C44100028D62 /* Hitmonchan.png */,
+				8C33D1FD1AC5C47400028D62 /* Arcanine.png */,
+			);
+			sourceTree = "<group>";
+		};
+		8C87B8211AC482A8007F6B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C87B8201AC482A8007F6B31 /* Projetopokemon.app */,
+				8C87B8391AC482A8007F6B31 /* ProjetopokemonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C87B8221AC482A8007F6B31 /* Projetopokemon */ = {
+			isa = PBXGroup;
+			children = (
+				8C87B8491AC48339007F6B31 /* ViewController.h */,
+				8C87B84A1AC48339007F6B31 /* ViewController.m */,
+				8C87B84B1AC48339007F6B31 /* AppDelegate.h */,
+				8C87B84C1AC48339007F6B31 /* AppDelegate.m */,
+				8C87B84D1AC48339007F6B31 /* Main.storyboard */,
+				8C87B84E1AC48339007F6B31 /* Images.xcassets */,
+				8C87B84F1AC48339007F6B31 /* LaunchScreen.xib */,
+				8C87B8231AC482A8007F6B31 /* Supporting Files */,
+			);
+			path = Projetopokemon;
+			sourceTree = "<group>";
+		};
+		8C87B8231AC482A8007F6B31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C87B8241AC482A8007F6B31 /* Info.plist */,
+				8C87B8251AC482A8007F6B31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C87B83C1AC482A8007F6B31 /* ProjetopokemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C87B83F1AC482A8007F6B31 /* ProjetopokemonTests.m */,
+				8C87B83D1AC482A8007F6B31 /* Supporting Files */,
+			);
+			path = ProjetopokemonTests;
+			sourceTree = "<group>";
+		};
+		8C87B83D1AC482A8007F6B31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C87B83E1AC482A8007F6B31 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C87B81F1AC482A8007F6B31 /* Projetopokemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C87B8431AC482A8007F6B31 /* Build configuration list for PBXNativeTarget "Projetopokemon" */;
+			buildPhases = (
+				8C87B81C1AC482A8007F6B31 /* Sources */,
+				8C87B81D1AC482A8007F6B31 /* Frameworks */,
+				8C87B81E1AC482A8007F6B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Projetopokemon;
+			productName = Projetopokemon;
+			productReference = 8C87B8201AC482A8007F6B31 /* Projetopokemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C87B8381AC482A8007F6B31 /* ProjetopokemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C87B8461AC482A8007F6B31 /* Build configuration list for PBXNativeTarget "ProjetopokemonTests" */;
+			buildPhases = (
+				8C87B8351AC482A8007F6B31 /* Sources */,
+				8C87B8361AC482A8007F6B31 /* Frameworks */,
+				8C87B8371AC482A8007F6B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C87B83B1AC482A8007F6B31 /* PBXTargetDependency */,
+			);
+			name = ProjetopokemonTests;
+			productName = ProjetopokemonTests;
+			productReference = 8C87B8391AC482A8007F6B31 /* ProjetopokemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C87B8181AC482A8007F6B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Gabriel de Sousa Borges";
+				TargetAttributes = {
+					8C87B81F1AC482A8007F6B31 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8C87B8381AC482A8007F6B31 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8C87B81F1AC482A8007F6B31;
+					};
+				};
+			};
+			buildConfigurationList = 8C87B81B1AC482A8007F6B31 /* Build configuration list for PBXProject "Projetopokemon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C87B8171AC482A8007F6B31;
+			productRefGroup = 8C87B8211AC482A8007F6B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C87B81F1AC482A8007F6B31 /* Projetopokemon */,
+				8C87B8381AC482A8007F6B31 /* ProjetopokemonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C87B81E1AC482A8007F6B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C33D1FE1AC5C47400028D62 /* Arcanine.png in Resources */,
+				8C33D1EA1AC5C11500028D62 /* charmander.png in Resources */,
+				8C87B8641AC48415007F6B31 /* Miau.png in Resources */,
+				8C33D1F41AC5C38800028D62 /* Nidoran.png in Resources */,
+				8C33D1E81AC5BF7800028D62 /* hunter.png in Resources */,
+				8C87B8631AC48415007F6B31 /* Lapras.png in Resources */,
+				8C33D1FA1AC5C3E600028D62 /* pichu.png in Resources */,
+				8C04551E1AC58EEC009D1B1B /* Grownevolu.png in Resources */,
+				8C87B8601AC48415007F6B31 /* Gengar.png in Resources */,
+				8C33D1F61AC5C38D00028D62 /* Nidorina.png in Resources */,
+				8C87B8611AC48415007F6B31 /* Grown.png in Resources */,
+				8C87B85F1AC48415007F6B31 /* Cloyster.png in Resources */,
+				8C04551C1AC58E25009D1B1B /* Persia.png in Resources */,
+				8C33D1EC1AC5C17100028D62 /* charmelon.png in Resources */,
+				8C87B8521AC48339007F6B31 /* Main.storyboard in Resources */,
+				8C87B8621AC48415007F6B31 /* Hitmonlee.png in Resources */,
+				8C33D1F01AC5C34600028D62 /* bulbasaur.png in Resources */,
+				8C87B8781AC4B48C007F6B31 /* pokex.jpg in Resources */,
+				8C87B86A1AC48DE7007F6B31 /* BackPedro.png in Resources */,
+				8C33D1F81AC5C3B500028D62 /* Raichu.png in Resources */,
+				8C87B86E1AC4A536007F6B31 /* charizard.png in Resources */,
+				8C87B8681AC48415007F6B31 /* Venosaur.png in Resources */,
+				8C87B87A1AC4B94C007F6B31 /* Pedro.png in Resources */,
+				8C87B8671AC48415007F6B31 /* Pikachu.png in Resources */,
+				8C33D1F21AC5C37600028D62 /* Ivysaur.png in Resources */,
+				8C33D1EE1AC5C2F100028D62 /* Shellder.png in Resources */,
+				8C33D1FC1AC5C44100028D62 /* Hitmonchan.png in Resources */,
+				8C87B8541AC48339007F6B31 /* LaunchScreen.xib in Resources */,
+				8C87B8651AC48415007F6B31 /* Miltank.png in Resources */,
+				8C33D1E61AC5BEFD00028D62 /* gastly.png in Resources */,
+				8C87B8531AC48339007F6B31 /* Images.xcassets in Resources */,
+				8C87B8661AC48415007F6B31 /* Nidoqueen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C87B8371AC482A8007F6B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C87B81C1AC482A8007F6B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C87B8501AC48339007F6B31 /* ViewController.m in Sources */,
+				8C87B8261AC482A8007F6B31 /* main.m in Sources */,
+				8C87B8511AC48339007F6B31 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C87B8351AC482A8007F6B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C87B8401AC482A8007F6B31 /* ProjetopokemonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C87B83B1AC482A8007F6B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C87B81F1AC482A8007F6B31 /* Projetopokemon */;
+			targetProxy = 8C87B83A1AC482A8007F6B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C87B8411AC482A8007F6B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C87B8421AC482A8007F6B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C87B8441AC482A8007F6B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Projetopokemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C87B8451AC482A8007F6B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Projetopokemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C87B8471AC482A8007F6B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjetopokemonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projetopokemon.app/Projetopokemon";
+			};
+			name = Debug;
+		};
+		8C87B8481AC482A8007F6B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjetopokemonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projetopokemon.app/Projetopokemon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C87B81B1AC482A8007F6B31 /* Build configuration list for PBXProject "Projetopokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C87B8411AC482A8007F6B31 /* Debug */,
+				8C87B8421AC482A8007F6B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C87B8431AC482A8007F6B31 /* Build configuration list for PBXNativeTarget "Projetopokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C87B8441AC482A8007F6B31 /* Debug */,
+				8C87B8451AC482A8007F6B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C87B8461AC482A8007F6B31 /* Build configuration list for PBXNativeTarget "ProjetopokemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C87B8471AC482A8007F6B31 /* Debug */,
+				8C87B8481AC482A8007F6B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C87B8181AC482A8007F6B31 /* Project object */;
+}
